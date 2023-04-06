@@ -1,0 +1,229 @@
+import java.util.Scanner;
+
+class SwitchDemo{
+        public static void main(String [] args ){
+
+                Scanner sc = new Scanner(System.in);
+                System.out.println("Enter the mall you want to visit \n1.Amanora \n2.Phoneix \n3.Kumar Pacific");
+                int x = sc.nextInt();
+
+                switch(x){
+                        case 1:
+                                System.out.println("What do you want to do in there \n1. Eat \n2.Shopping \n3.play");
+                                int y = sc.nextInt();
+                                switch(y){
+                                        case 1:
+                                                System.out.println(" What do you want to eat\n1.veg\n2.non-veg");
+                                                int z = sc.nextInt();
+                                                switch(z){
+                                                        case 1 :
+                                                                System.out.println("we dont serve veg");
+                                                                break;
+                                                        case 2:
+                                                                System.out.println("1.Chiken\n2.mutton");
+                                                                int dish = sc.nextInt();
+                                                                switch(dish){
+                                                                        case 1:
+                                                                                System.out.println(" Sir this is your Chiken masala");
+                                                                                break;
+                                                                        case 2:
+                                                                                System.out.println(" This your Mutton Biryani ");
+                                                                                break;
+                                                                        default:
+                                                                                System.out.println("plz chose from above option");
+                                                                                break;
+                                                                }
+                                                                break;
+                                                        default:
+                                                                System.out.println("plz chose from above option");
+                                                                break;
+                                                }
+                                        case 2:
+                                                System.out.println("What do u want to buy\n1.Shoes\n2.clothes\n3.accessories");
+                                                int a = sc.nextInt();
+                                                switch(a){
+                                                        case 1 :
+                                                                System.out.println("We have \n1.puma \n2.nike \n3.addidas");
+                                                                break;
+                                                        case 2:
+                                                                System.out.println("Which brand do you want \n1.HRX\n2.zudio");
+                                                                int brand = sc.nextInt();
+                                                                switch(brand){
+                                                                        case 1:
+                                                                                System.out.println("HRX is on ground floor");
+                                                                                break;
+                                                                        case 2:
+                                                                                System.out.println(" Zudio is on 1st floor");
+                                                                                break;
+                                                                        default:
+                                                                                System.out.println("plz chose from above option");
+                                                                                break;
+                                                                }
+                                                                break;
+                                                        case 3:
+                                                                System.out.println("Accessories samplya bhau");
+                                                                break;
+
+
+                                                        default:
+                                                                System.out.println("plz chose from above option");
+                                                                break;
+                                                }
+                                        case 3:
+                                                System.out.println(" Lahan Rayla ka bhau play tr \n Abhyas kr play n kahi nhi hot ");
+                                                break;
+                                        default:
+                                                System.out.println("warcha yachatl ghe chup chap");
+                                                break;
+                                }
+                                break;
+                                case 2:
+                                System.out.println("What do you want to do in there \n1. Eat \n2.Shopping \n3.play");
+                                int b = sc.nextInt();
+                                switch(b){
+                                        case 1:
+                                                System.out.println(" What do you want to eat\n1.veg\n2.non-veg");
+                                                int c= sc.nextInt();
+                                                switch(c){
+                                                        case 1 :
+                                                                System.out.println("we dont serve veg");
+                                                                break;
+                                                        case 2:
+                                                                System.out.println("1.Chiken\n2.mutton");
+                                                                int d = sc.nextInt();
+                                                                switch(d){
+                                                                        case 1:
+                                                                                System.out.println(" Sir this is your Chiken masala");
+                                                                                break;
+                                                                        case 2:
+                                                                                System.out.println(" This your Mutton Biryani ");
+                                                                                break;
+                                                                        default:
+                                                                                System.out.println("plz chose from above option");
+                                                                                break;
+                                                                }
+                                                                break;
+                                                        default:
+                                                                System.out.println("plz chose from above option");
+                                                                break;
+                                                }
+                                        case 2:
+                                                System.out.println("What do u want to buy\n1.Shoes\n2.clothes\n3.accessories");
+                                                int e = sc.nextInt();
+                                                switch(e){
+                                                        case 1 :
+                                                                System.out.println("We have \n1.puma \n2.nike \n3.addidas");
+                                                                break;
+                                                        case 2:
+                                                                System.out.println("Which brand do you want \n1.HRX\n2.zudio");
+                                                                int f = sc.nextInt();
+                                                                switch(f){
+                                                                        case 1:
+                                                                                System.out.println("HRX is on ground floor");
+                                                                                break;
+                                                                        case 2:
+                                                                                System.out.println(" Zudio is on 1st floor");
+                                                                                break;
+                                                                        default:
+                                                                                System.out.println("plz chose from above option");
+                                                                                break;
+                                                                }
+                                                                break;
+                                                        case 3:
+                                                                System.out.println("Accessories samplya bhau");
+                                                                break;
+
+
+                                                        default:
+                                                                System.out.println("plz chose from above option");
+                                                                break;
+                                                }
+                                                break;
+
+                                        case 3:
+                                                System.out.println(" Lahan Rayla ka bhau play tr \n Abhyas kr play n kahi nhi hot ");
+                                                break;
+                                        default:
+                                                System.out.println("warcha yachatl ghe chup chap");
+                                                break;
+                                }
+                                break;
+                                case 3:
+                                System.out.println("What do you want to do in there \n1. Eat \n2.Shopping \n3.play");
+                                int g = sc.nextInt();
+                                switch(g){
+                                        case 1:
+                                                System.out.println(" What do you want to eat\n1.veg\n2.non-veg");
+                                                int h = sc.nextInt();
+                                                switch(h){
+                                                        case 1 :
+                                                                System.out.println("we dont serve veg");
+                                                                break;
+                                                        case 2:
+                                                                System.out.println("1.Chiken\n2.mutton");
+                                                                int i = sc.nextInt();
+                                                                switch(i){
+                                                                        case 1:
+                                                                                System.out.println(" Sir this is your Chiken masala");
+                                                                                break;
+                                                                        case 2:
+                                                                                System.out.println(" This your Mutton Biryani ");
+                                                                                break;
+                                                                        default:
+                                                                                System.out.println("plz chose from above option");
+                                                                                break;
+                                                                }
+                                                                break;
+                                                        default:
+                                                                System.out.println("plz chose from above option");
+                                                                break;
+                                                }
+                                                break;
+
+                                        case 2:
+                                                System.out.println("What do u want to buy\n1.Shoes\n2.clothes\n3.accessories");
+                                                int j = sc.nextInt();
+                                                switch(j){
+                                                        case 1 :
+                                                                System.out.println("We have \n1.puma \n2.nike \n3.addidas");
+                                                                break;
+                                                        case 2:
+                                                                System.out.println("Which brand do you want \n1.HRX\n2.zudio");
+                                                                int k = sc.nextInt();
+                                                                switch(k){
+                                                                        case 1:
+                                                                                System.out.println("HRX is on ground floor");
+                                                                                break;
+                                                                        case 2:
+                                                                                System.out.println(" Zudio is on 1st floor");
+                                                                                break;
+                                                                        default:
+                                                                                System.out.println("plz chose from above option");
+                                                                                break;
+                                                                }
+                                                                break;
+                                                        case 3:
+                                                                System.out.println("Accessories samplya bhau");
+                                                                break;
+
+
+                                                        default:
+                                                                System.out.println("plz chose from above option");
+                                                                break;
+                                                }
+                                                break;
+                                        case 3:
+                                                System.out.println(" Lahan Rayla ka bhau play tr \n Abhyas kr play n kahi nhi hot ");
+                                                break;
+                                        default:
+                                                System.out.println("warcha yachatl ghe chup chap");
+                                                break;
+                                }
+                                break;
+
+                }
+        }
+}
+
+
+
